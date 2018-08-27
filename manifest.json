@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Wakatime",
+  "version": "0.1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "wakatime@mozilla.org"
+    }
+  },
+
+  "permissions": [
+  ],  
+
+  "browser_action": {
+    "default_icon": "asset/wakatime-logo-38.png",
+    "default_title": "Wakatime",
+    "default_popup": "popup/main.html"
+  },
+  
+  "web_accessible_resources": [
+    "asset/wakatime-logo-128.png",
+    "popup/style.css"
+  ]
+
+}
